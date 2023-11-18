@@ -13,6 +13,6 @@ public class AppController {
     @GetMapping("/register")
     public String showSignUpForm(Model model){
         model.addAttribute("user", new User());
-        return "sign_form";
+        return "signup_form";
     }
 }
